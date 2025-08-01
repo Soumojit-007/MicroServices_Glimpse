@@ -485,3 +485,23 @@
 {"level":"info","message":"Subscribed to event!!! : post.deleted","service":"media-service","timestamp":"2025-08-01T08:12:49.788Z"}
 {"level":"info","message":"🚀 Server running on http://localhost:3003","service":"media-service","timestamp":"2025-08-01T08:12:49.789Z"}
 {"level":"info","message":"✅ Connected to MongoDB","service":"media-service","timestamp":"2025-08-01T08:12:50.172Z"}
+{"level":"info","message":"⏳ Attempting to connect to RabbitMQ...","service":"media-service","timestamp":"2025-08-01T16:07:52.801Z"}
+{"level":"info","message":"Connecting to RabbitMQ at amqp://localhost:5672","service":"media-service","timestamp":"2025-08-01T16:07:52.805Z"}
+{"level":"info","message":"🚀 Server running on port 3003","service":"media-service","timestamp":"2025-08-01T16:07:52.826Z"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-01T16:07:53.016Z"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"media-service","timestamp":"2025-08-01T16:07:53.016Z"}
+{"level":"info","message":"Subscribed to event!!! : post.deleted","service":"media-service","timestamp":"2025-08-01T16:07:53.045Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:3003","service":"media-service","timestamp":"2025-08-01T16:07:53.047Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"media-service","timestamp":"2025-08-01T16:07:59.020Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-08-01T16:16:04.438Z"}
+{"level":"info","message":"Request body: undefined","service":"media-service","timestamp":"2025-08-01T16:16:04.444Z"}
+{"level":"info","message":"POST /api/media/upload - File received: dog image.jpeg | Type: image/jpeg | Size: 128125 bytes","service":"media-service","timestamp":"2025-08-01T16:16:04.457Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-08-01T16:16:04.458Z"}
+{"level":"info","message":"File details: name -> dog image.jpeg, type -> image/jpeg","service":"media-service","timestamp":"2025-08-01T16:16:04.464Z"}
+{"level":"info","message":"Uploading to Cloudinary starting...","service":"media-service","timestamp":"2025-08-01T16:16:04.465Z"}
+{"level":"info","message":"Cloudinary upload successful. Public Id: ivlfqdiatdr2saxtarzn","service":"media-service","timestamp":"2025-08-01T16:16:10.152Z"}
+{"0":"i","1":"v","10":"r","11":"2","12":"s","13":"a","14":"x","15":"t","16":"a","17":"r","18":"z","19":"n","2":"l","3":"f","4":"q","5":"d","6":"i","7":"a","8":"t","9":"d","level":"info","message":"Media deleted successfully from the cloud storage:","service":"media-service","timestamp":"2025-08-01T16:21:46.904Z"}
+{"level":"info","message":"Deleted media 688ce84af2629efc7b3b7853 associated with deleted post 688ce8ae29010ddaf629ef5b","service":"media-service","timestamp":"2025-08-01T16:21:47.095Z"}
+{"level":"info","message":"Processed deletion of media for post id 688ce8ae29010ddaf629ef5b","service":"media-service","timestamp":"2025-08-01T16:21:47.096Z"}
+{"level":"info","message":"Received GET request to /api/media/get","service":"media-service","timestamp":"2025-08-01T16:22:27.810Z"}
+{"level":"info","message":"Received GET request to /api/media/get","service":"media-service","timestamp":"2025-08-01T16:24:31.711Z"}

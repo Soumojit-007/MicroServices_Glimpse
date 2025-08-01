@@ -430,3 +430,12 @@
 {"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-08-01T08:11:06.088Z"}
 {"level":"info","message":"🚀 Server running on port 3001","service":"identity-service","timestamp":"2025-08-01T08:12:54.648Z"}
 {"level":"info","message":"✅ Connected to MongoDB","service":"identity-service","timestamp":"2025-08-01T08:12:55.176Z"}
+{"level":"info","message":"🚀 Server running on port 3001","service":"identity-service","timestamp":"2025-08-01T16:10:37.659Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"identity-service","timestamp":"2025-08-01T16:10:43.486Z"}
+{"level":"info","message":"➡️  POST /api/auth/register","service":"identity-service","timestamp":"2025-08-01T16:13:23.059Z"}
+{"level":"info","message":"📝 Body: {\"username\":\"npm1\",\"email\":\"npm1@gmail.com\",\"password\":\"12345678\"}","service":"identity-service","timestamp":"2025-08-01T16:13:23.060Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-01T16:13:23.068Z"}
+{"level":"info","message":"User saved successfully: 688ce7a3262524f352bf3293","service":"identity-service","timestamp":"2025-08-01T16:13:24.009Z"}
+{"level":"info","message":"➡️  POST /api/auth/login","service":"identity-service","timestamp":"2025-08-01T16:14:30.438Z"}
+{"level":"info","message":"📝 Body: {\"email\":\"npm1@gmail.com\",\"password\":\"12345678\"}","service":"identity-service","timestamp":"2025-08-01T16:14:30.438Z"}
+{"level":"info","message":"Login endpoint hit","service":"identity-service","timestamp":"2025-08-01T16:14:30.440Z"}

@@ -655,3 +655,39 @@
 {"level":"info","message":"✅ Connected to RabbitMQ","service":"post-service","timestamp":"2025-08-01T08:12:44.753Z"}
 {"level":"info","message":"🚀 Server running on http://localhost:3002","service":"post-service","timestamp":"2025-08-01T08:12:44.756Z"}
 {"level":"info","message":"✅ Connected to MongoDB","service":"post-service","timestamp":"2025-08-01T08:12:45.701Z"}
+{"level":"info","message":"⏳ Attempting to connect to RabbitMQ...","service":"post-service","timestamp":"2025-08-01T16:09:21.810Z"}
+{"level":"info","message":"Connecting to RabbitMQ at amqp://localhost:5672","service":"post-service","timestamp":"2025-08-01T16:09:21.813Z"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"post-service","timestamp":"2025-08-01T16:09:21.858Z"}
+{"level":"info","message":"✅ Connected to RabbitMQ","service":"post-service","timestamp":"2025-08-01T16:09:21.859Z"}
+{"level":"info","message":"🚀 Server running on http://localhost:3002","service":"post-service","timestamp":"2025-08-01T16:09:21.863Z"}
+{"level":"info","message":"✅ Connected to MongoDB","service":"post-service","timestamp":"2025-08-01T16:09:26.266Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-01T16:17:49.955Z"}
+{"level":"info","message":"Request body , [object Object]","service":"post-service","timestamp":"2025-08-01T16:17:49.962Z"}
+{"level":"info","message":"Event published : post.created","service":"post-service","timestamp":"2025-08-01T16:17:51.484Z"}
+{"level":"info","message":"Post created successfully: {\"user\":\"688ce7a3262524f352bf3293\",\"content\":\"This is my dog diana\",\"mediaIds\":[\"688ce84af2629efc7b3b7853\"],\"_id\":\"688ce8ae29010ddaf629ef5b\",\"createdAt\":\"2025-08-01T16:17:50.025Z\",\"updatedAt\":\"2025-08-01T16:17:50.025Z\",\"__v\":0}","service":"post-service","timestamp":"2025-08-01T16:17:51.488Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-08-01T16:18:30.258Z"}
+{"level":"info","message":"Request body , [object Object]","service":"post-service","timestamp":"2025-08-01T16:18:30.258Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/688c76ae670ba040b4adcc40","service":"post-service","timestamp":"2025-08-01T16:19:44.549Z"}
+{"level":"info","message":"Request body , [object Object]","service":"post-service","timestamp":"2025-08-01T16:19:44.550Z"}
+{"level":"info","message":"{\"_id\":\"688c76ae670ba040b4adcc40\",\"user\":\"68876d243738558074abf547\",\"content\":\"Search Service\",\"mediaIds\":[],\"createdAt\":\"2025-08-01T08:11:26.739Z\",\"updatedAt\":\"2025-08-01T08:11:26.739Z\",\"__v\":0}","service":"post-service","timestamp":"2025-08-01T16:19:44.742Z"}
+{"level":"info","message":"Recieved DELETE request to /api/posts/688c76ae670ba040b4adcc40","service":"post-service","timestamp":"2025-08-01T16:21:15.794Z"}
+{"level":"info","message":"Request body , [object Object]","service":"post-service","timestamp":"2025-08-01T16:21:15.795Z"}
+{"level":"debug","message":"Attempting to delete post with ID: 688c76ae670ba040b4adcc40","service":"post-service","timestamp":"2025-08-01T16:21:15.798Z"}
+{"level":"debug","message":"Authenticated user ID: 688ce7a3262524f352bf3293","service":"post-service","timestamp":"2025-08-01T16:21:15.799Z"}
+{"level":"debug","message":"Is user admin: undefined","service":"post-service","timestamp":"2025-08-01T16:21:15.800Z"}
+{"level":"debug","message":"Post found in DB: {\"_id\":\"688c76ae670ba040b4adcc40\",\"user\":\"68876d243738558074abf547\",\"content\":\"Search Service\",\"mediaIds\":[],\"createdAt\":\"2025-08-01T08:11:26.739Z\",\"updatedAt\":\"2025-08-01T08:11:26.739Z\",\"__v\":0}","service":"post-service","timestamp":"2025-08-01T16:21:15.967Z"}
+{"level":"debug","message":"Post owner ID: 68876d243738558074abf547","service":"post-service","timestamp":"2025-08-01T16:21:15.969Z"}
+{"level":"warn","message":"Post with ID 688c76ae670ba040b4adcc40 not found or not owned by user 688ce7a3262524f352bf3293","service":"post-service","timestamp":"2025-08-01T16:21:16.297Z"}
+{"level":"info","message":"Recieved DELETE request to /api/posts/688ce8ae29010ddaf629ef5b","service":"post-service","timestamp":"2025-08-01T16:21:42.905Z"}
+{"level":"info","message":"Request body , [object Object]","service":"post-service","timestamp":"2025-08-01T16:21:42.906Z"}
+{"level":"debug","message":"Attempting to delete post with ID: 688ce8ae29010ddaf629ef5b","service":"post-service","timestamp":"2025-08-01T16:21:42.906Z"}
+{"level":"debug","message":"Authenticated user ID: 688ce7a3262524f352bf3293","service":"post-service","timestamp":"2025-08-01T16:21:42.907Z"}
+{"level":"debug","message":"Is user admin: undefined","service":"post-service","timestamp":"2025-08-01T16:21:42.907Z"}
+{"level":"debug","message":"Post found in DB: {\"_id\":\"688ce8ae29010ddaf629ef5b\",\"user\":\"688ce7a3262524f352bf3293\",\"content\":\"This is my dog diana\",\"mediaIds\":[\"688ce84af2629efc7b3b7853\"],\"createdAt\":\"2025-08-01T16:17:50.025Z\",\"updatedAt\":\"2025-08-01T16:17:50.025Z\",\"__v\":0}","service":"post-service","timestamp":"2025-08-01T16:21:43.461Z"}
+{"level":"debug","message":"Post owner ID: 688ce7a3262524f352bf3293","service":"post-service","timestamp":"2025-08-01T16:21:43.462Z"}
+{"level":"debug","message":"Publishing delete event for post 688ce8ae29010ddaf629ef5b","service":"post-service","timestamp":"2025-08-01T16:21:43.563Z"}
+{"level":"info","message":"Event published : post.deleted","service":"post-service","timestamp":"2025-08-01T16:21:43.565Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-08-01T16:24:03.087Z"}
+{"level":"info","message":"Request body , [object Object]","service":"post-service","timestamp":"2025-08-01T16:24:03.088Z"}
+{"level":"info","message":"Event published : post.created","service":"post-service","timestamp":"2025-08-01T16:24:03.443Z"}
+{"level":"info","message":"Post created successfully: {\"user\":\"688ce7a3262524f352bf3293\",\"content\":\"This is my dog diana\",\"mediaIds\":[\"688ce84af2629efc7b3b7853\"],\"_id\":\"688cea2329010ddaf629ef64\",\"createdAt\":\"2025-08-01T16:24:03.101Z\",\"updatedAt\":\"2025-08-01T16:24:03.101Z\",\"__v\":0}","service":"post-service","timestamp":"2025-08-01T16:24:03.445Z"}
