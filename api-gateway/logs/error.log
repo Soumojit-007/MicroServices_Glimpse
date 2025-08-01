@@ -1,0 +1,27 @@
+{"level":"error","message":"Proxy Error : ","service":"api-gateway","timestamp":"2025-07-19T06:38:42.145Z"}
+{"level":"error","message":"Proxy Error : ","service":"api-gateway","timestamp":"2025-07-19T06:40:01.138Z"}
+{"level":"error","message":"Proxy Error : ","service":"api-gateway","timestamp":"2025-07-19T06:40:05.092Z"}
+{"level":"error","message":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1118:18)\n    at afterConnectMultiple (node:net:1685:7)","service":"api-gateway","timestamp":"2025-07-19T06:44:25.509Z"}
+{"level":"error","message":"Proxy Error : ","service":"api-gateway","timestamp":"2025-07-21T14:02:32.064Z"}
+{"level":"error","message":"Proxy Error : ","service":"api-gateway","timestamp":"2025-07-21T14:02:42.387Z"}
+{"level":"error","message":"JWT_SECRET is not defined in environment!","service":"api-gateway","timestamp":"2025-07-21T14:12:17.790Z"}
+{"level":"error","message":"JWT_SECRET is not defined in environment!","service":"api-gateway","timestamp":"2025-07-21T14:16:12.002Z"}
+{"level":"error","message":"JWT_SECRET is not defined in environment!","service":"api-gateway","timestamp":"2025-07-21T14:17:06.734Z"}
+{"level":"error","message":"Error response from the Media service: 500","service":"api-gateway","timestamp":"2025-07-27T17:05:16.998Z"}
+{"level":"error","message":"Error response from the Media service: 500","service":"api-gateway","timestamp":"2025-07-27T17:09:11.832Z"}
+{"level":"error","message":"Proxy Error : ","service":"api-gateway","timestamp":"2025-07-28T12:27:35.413Z"}
+{"level":"error","message":"Proxy Error : ","service":"api-gateway","timestamp":"2025-07-28T12:27:49.719Z"}
+{"level":"error","message":"Proxy Error : ","service":"api-gateway","timestamp":"2025-07-28T12:29:53.827Z"}
+{"level":"error","message":"Proxy Error : ","service":"api-gateway","timestamp":"2025-07-28T12:34:49.689Z"}
+{"level":"error","message":"Proxy Error : ","service":"api-gateway","timestamp":"2025-07-28T12:35:10.385Z"}
+{"level":"error","message":"Proxy Error : ","service":"api-gateway","timestamp":"2025-07-28T12:36:33.075Z"}
+{"level":"error","message":"Proxy Error : ","service":"api-gateway","timestamp":"2025-07-28T12:37:05.041Z"}
+{"level":"error","message":"Proxy Error : ","service":"api-gateway","timestamp":"2025-07-28T12:37:08.502Z"}
+{"level":"error","message":"Proxy Error : ","service":"api-gateway","timestamp":"2025-07-28T12:37:12.297Z"}
+{"level":"error","message":"Proxy Error : ","service":"api-gateway","timestamp":"2025-07-28T12:40:35.434Z"}
+{"level":"error","message":"Proxy Error : ","service":"api-gateway","timestamp":"2025-07-28T16:39:14.867Z"}
+{"level":"error","message":"Proxy Error : ","service":"api-gateway","timestamp":"2025-07-28T16:39:26.949Z"}
+{"level":"error","message":"Error response from the Media service: 500","service":"api-gateway","timestamp":"2025-07-30T12:35:39.941Z"}
+{"level":"error","message":"Error response from the Media service: 500","service":"api-gateway","timestamp":"2025-07-30T12:42:22.717Z"}
+{"level":"error","message":"Error response from the Media service: 500","service":"api-gateway","timestamp":"2025-07-30T12:43:37.591Z"}
+{"level":"error","message":"Error response from the Media service: 500","service":"api-gateway","timestamp":"2025-07-30T12:44:08.541Z"}
