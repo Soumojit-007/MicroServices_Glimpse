@@ -7,7 +7,7 @@ import { rateLimit } from "express-rate-limit";
 import { RedisStore } from "rate-limit-redis";
 import logger from "./utils/logger.js";
 import proxy from "express-http-proxy";
-import errorHandler from "./middleware/errorhandler.js";
+import {errorHandler} from "./middleware/errorHandler.js";
 import validateToken from "./middleware/authMiddleware.js";
 
 dotenv.config();

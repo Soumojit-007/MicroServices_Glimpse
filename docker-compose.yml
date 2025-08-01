@@ -1,8 +1,10 @@
-version: '3.8'
+
 
 services:
   api-gateway:
-    build: ./api-gateway
+    build:
+      context: ./api-gateway
+      dockerfile: Dockerfile
     ports:
       - "3000:3000"
     env_file: ./api-gateway/.env
@@ -14,7 +16,9 @@ services:
       - RABBITMQ_URL=amqp://rabbitmq:5672
 
   identity-service:
-    build: ./identity-service
+    build:
+      context: ./identity-service
+      dockerfile: Dockerfile
     env_file: ./identity-service/.env
     depends_on:
       - redis
@@ -24,7 +28,9 @@ services:
       - RABBITMQ_URL=amqp://rabbitmq:5672
 
   post-service:
-    build: ./post-service
+    build:
+      context: ./post-service
+      dockerfile: Dockerfile
     env_file: ./post-service/.env
     depends_on:
       - redis
@@ -34,7 +40,9 @@ services:
       - RABBITMQ_URL=amqp://rabbitmq:5672
 
   media-service:
-    build: ./media-service
+    build:
+      context: ./media-service
+      dockerfile: Dockerfile
     env_file: ./media-service/.env
     depends_on:
       - redis

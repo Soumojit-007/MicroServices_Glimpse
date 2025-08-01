@@ -1,7 +1,7 @@
 // user-registration
 import logger from "../utils/logger.js";
 import {validateRegistration , validatelogin}  from "../utils/validation.js";
-import User from "../models/user.js";
+import User from "../models/User.js";
 import generateTokens from "../utils/generateToken.js";
 import RefreshToken from "../models/RefreshToken.js";
 

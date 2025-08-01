@@ -1,15 +1,20 @@
-# use the officail node.js image with alpine linux as the base image
-
+# Use the official Node.js image with Alpine Linux as the base image
 FROM node:18-alpine
 
-WORKDIR /use/src/app
+# Set working directory (✅ fix the typo: /usr not /use)
+WORKDIR /usr/src/app
 
+# Copy only package.json and package-lock.json first
 COPY package*.json ./
 
+# Install dependencies for production only
 RUN npm ci --only=production
 
+# Copy rest of the application code
 COPY . .
 
+# Expose application port
 EXPOSE 3000
 
-CMD [ "node" , "src/server.js"]
+# Command to run the app
+CMD ["node", "src/server.js"]
